@@ -40,7 +40,7 @@ def kirim_data(nama="kosong"):
 
 if __name__=='__main__':
     threads = []
-    total = 500
+    total = 4500
     for i in range(total):
         t = threading.Thread(target=kirim_data, args=(i,))
         threads.append(t)

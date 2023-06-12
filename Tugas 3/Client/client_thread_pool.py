@@ -39,7 +39,7 @@ def kirim_data(nama="kosong"):
 
 
 if __name__=='__main__':
-    total = 1000000
+    total = 500000
 
     with ThreadPoolExecutor() as executor:
         for k in range(total):
